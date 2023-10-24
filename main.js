@@ -12,7 +12,7 @@ const litaDeTeclas = document.querySelectorAll('.tecla');
 litaDeTeclas[0].onclick = tocaSomPom;
 
 let contador= 0;
-while(contador < 9){
+while(contador < litaDeTeclas.length){
     litaDeTeclas[contador].onclick = tocaSomPom;
     contador = contador +1;
     console.log(contador);
